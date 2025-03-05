@@ -31,8 +31,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "opencv2",
-            url: "https://github.com/wishidev/opencv-wrapper/releases/download/v4.10.0/opencv-4.10.0-ios-framework.zip",
-            checksum: "cbd21c62a4cfdd4cfe7e69c8601d23976e2d2bd05a912d0759debb3052c257db"
+            url: "https://github.com/wishidev/opencv-wrapper/releases/download/v4.11.0/opencv2.xcframework.zip",
+            checksum: "4ac0251e05536639cbd9a11832ee15240a351531e8de700d97d33418311e83e2"
         ),
         .testTarget(
             name: "SwiftOpenCVTests",
